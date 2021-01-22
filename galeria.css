@@ -1,5 +1,6 @@
 body{
     background: #444;
+    padding: 0;
     margin: 0;
     font-family: monospace;
 }
@@ -28,8 +29,8 @@ h1{
 }
 
 .galeria img{
-    width: 150px;
-    height: 100px;
+    width: 200px;
+    height: 150px;
 }
 
 /* ESTILOS MODAL */
@@ -41,12 +42,12 @@ h1{
 .modal:target{
     visibility: visible;
     opacity: 1;
-    transition: all 0.5s;
+    transition: all 0.4s;
     position: fixed;
     background: rgba(0,0,0,0.8);
     top: 0;
     left: 0;
-    width: 100%;
+    width:100%;
     height: 100%;
 }
 
@@ -58,8 +59,9 @@ h1{
 }
 
 .imagen{
-    width: 100%;
+    width: 80%;
     height:80%;
+    margin: auto;
 
     display: flex;
     justify-content: center;
@@ -80,8 +82,8 @@ h1{
 }
  
 .imagen img{
-    width: 500px;
-    height: 100%;
+    width: auto;
+    height: 90%;
     max-width: 100%;
     border: 7px solid #fff;
     box-sizing: border-box;
@@ -93,6 +95,7 @@ h1{
     width: 25px;
     height: 25p;
     margin: auto;
+    margin-top: 10px;
     text-align: center;
     text-decoration: none;
     font: 25px;
